@@ -10,6 +10,8 @@ package interview;
 public class UniqueNumber {
 	public static void main(String args[]){
 		int a[] = {4,5,5,5,4,6,6,9,4};
+		
+		//create an empty array list to store array values 
 		ArrayList <Integer> al = new ArrayList<Integer>();
 		for (int i = 0; i<a.length; i++)
 		{
@@ -28,15 +30,15 @@ public class UniqueNumber {
 					} 
 				}	
 			}
-		/*if (!(count == 0))
+		if (!(count == 0))
 		{
       			System.out.print(a[i]+" is shown "+count+ " times");
       			System.out.println();	
-		}*/
-    		if (count == 1){
+		}
+    		/*if (count == 1){
       		System.out.println(a[i]+" is the unique number and shows up "+count+" time.");
     		
-		}
+		}*/
 
     		}
 	}
